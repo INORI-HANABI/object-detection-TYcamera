@@ -1,0 +1,21 @@
+﻿生成启动时间为 2019/5/20 10:33:18。
+     1>项目“D:\PJ\videoplay\playvideo\playvideo\playvideo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VS\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>main.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>D:\CV\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\CV\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\CV\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>main.cpp(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>main.cpp(49): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>main.cpp(96): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+       Link:
+         D:\VS2013\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PJ\videoplay\playvideo\x64\Debug\playvideo.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib opencv_world310.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PJ\videoplay\playvideo\x64\Debug\playvideo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PJ\videoplay\playvideo\x64\Debug\playvideo.lib" /MACHINE:X64 x64\Debug\main.obj
+         playvideo.vcxproj -> D:\PJ\videoplay\playvideo\x64\Debug\playvideo.exe
+     1>已完成生成项目“D:\PJ\videoplay\playvideo\playvideo\playvideo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.12
